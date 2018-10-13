@@ -22,3 +22,6 @@ php BungeeCord.php
 ````
 
 接下来挂着就行了，每天更新一次。
+
+### 注意事项
+`curl_request` 方法里有两行 curl_setopt，在 Use ShadowsocksR 注释下方，如果你不使用 SSR 或其他 Socks5 代理做下载加速，请注释或删除这两行。
